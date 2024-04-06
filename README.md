@@ -2,6 +2,9 @@
 )](https://www.oracle.com/java/technologies/javase-downloads.html)
 [![License](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat
 )](https://github.com/PixelGuys/Cubyz/blob/master/LICENSE)
+# Deprecation Notice
+## The java version of Cubyz is deprecated and won't receive any more updates. Newer versions of the game can be found here: https://github.com/PixelGuys/Cubyz
+
 # Cubyz
 Cubyz is a sandbox 3D voxel video game(aka minecraft clone). It is different to most other voxel games because it uses procedural content generation to make every single world unique in many ways(including ores, materials and tools).
 
@@ -20,7 +23,7 @@ Cubyz can easily be forked or modded to create a new game with 3D sandbox aspect
 ### The game
 - The development started on August 22, 2018. Back then it was called "Cubz".
 - Cubyz runs on lwjgl and uses its own voxel engine.
-- This game is under GPLv3 license for more details check the [LICENSE](https://github.com/PixelGuys/Cubz/blob/master/LICENSE) file.
+- This game is under GPLv3 license for more details check the [LICENSE](https://github.com/PixelGuys/Cubyz-Java/blob/master/LICENSE) file.
 - You can receive announcements about Cubyz on our [discord](https://discord.gg/XtqCRRG) server.
 
 # Run Cubyz
@@ -34,7 +37,7 @@ Cubyz is tested to compile and run with maven and eclipse.
 0. Install `git` and `maven`.
 1. Clone Cubyz from github:
 - Either run `git clone https://github.com/PixelGuys/Cubyz`
-- Or [download](https://github.com/PixelGuys/Cubyz/archive/master.zip) and unzip Cubyz master branch from github.
+- Or [download](https://github.com/PixelGuys/Cubyz-Java/archive/master.zip) and unzip Cubyz master branch from github.
 2. Go into the directory: `cd Cubyz`
 3. Run `mvn clean compile` to compile Cubyz.
 4. Run `mvn exec:java` to run Cubyz after compilation.
